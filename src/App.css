@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: "baloo_paaji_2regular";
+}
+
+.todo {
+    width: fit-content;
+    background-color: rgb(20, 15, 15);
+    margin: 40px auto;
+    padding: 20px;
+    color: rgb(247, 236, 215);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+    background-color: rgb(169, 175, 184);
+}
+.header {
+    width: 700px;
+    height: fit-content;
+    margin: 50px auto 20px auto;
+    border: 2px solid black;
+    background-color: black;
+}
+.heading {
+    font-family: "Fira Sans", sans-serif;
+    width: fit-content;
+    margin: 0 auto;
+    color: white;
+}
+.wrapper {
+    padding: 5px 0;
+    margin: 20px auto;
+    width: 800px;
+    min-height: 400px;
+    height: fit-content;
+    background-color: rgb(61, 64, 71);
+    border-radius: 8px;
+}

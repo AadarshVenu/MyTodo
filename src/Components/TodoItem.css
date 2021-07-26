@@ -1,0 +1,116 @@
+.todo-list {
+    width: 700px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: rgb(68, 71, 77);
+
+}
+
+.todo-filter {
+    width: 700px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.todo-filter-button {
+    font-size: 15px;
+    width: fit-content;
+    margin-right: 10px;
+    font-family: "Rubik", sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.todo-search {
+    width: 560px;
+    font-size: 15px;
+    font-family: "Lexend", sans-serif;
+    border-radius: 5px;
+}
+.todo-sort {
+    margin: 10px auto;
+}
+
+.todo-sort-button {
+    width: 100px;
+    margin-left: 20px;
+    font-family: "Rubik", sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+.todo-items {
+    height: 60px;
+    max-height: max-content;
+    display: flex;
+    border: 2px solid black;
+    margin: 5px 10px 0 -20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.todo-items-checkbox {
+    margin-right: 20px;
+    height: 15px;
+    width: 15px;
+}
+
+.todo-items-buttons {
+    margin-left: 20px;
+    display: flex;
+    align-items: baseline;
+    height: 15px;
+    cursor: pointer;
+}
+.todo-items-title {
+    width: 450px;
+    font-family: "Cabin", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.todo-items:hover {
+    background-color: rgb(49, 51, 58);
+}
+
+.todo-items-button {
+    margin: 0 5px;
+    font-family: "Rubik", sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.main-buttons {
+    width: fit-content;
+    margin: 10px auto;
+    font-family: "Rubik", sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.done-button {
+    margin-right: 40px;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.delete-button {
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
